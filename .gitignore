@@ -1,0 +1,66 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.id
+
+# Go build outputs
+*.exe
+*.out
+*.test
+coverage.out
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+
+# Frontend build outputs
+dist/
+build/
+
+# Go workspace and editor files
+.vscode/
+.idea/
+
+# Hyperledger Fabric generated data
+fabric-samples/test-network/organizations/
+fabric-samples/test-network/system-genesis-block/
+fabric-samples/test-network/channel-artifacts/
+fabric-samples/test-network/connection-org*.yaml
+fabric-samples/test-network/docker-compose-test-net.yaml
+
+# Fabric runtime data and local wallets
+wallet/
+wallets/
+crypto-config/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Go dependencies: vendor folder is optional if you want smaller repository
+# KBA-CHF/KBA-Automobile/Chaincode/vendor/
+
+# Fabric generated network data
+**/organizations/peerOrganizations/
+**/organizations/ordererOrganizations/
+**/channel-artifacts/
+**/system-genesis-block/
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+/KBA-CHF/fabric-samples/
